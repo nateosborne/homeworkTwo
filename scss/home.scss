@@ -1,0 +1,16 @@
+.hero{
+    height: 700px;
+    width: 100%;
+    background-image: url(../images/gummyworm.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: 150px;
+        color: black;
+        outline: 5px solid white;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    }
+}

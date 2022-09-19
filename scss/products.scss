@@ -1,0 +1,37 @@
+.prodcont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+h1{
+    font-size: 60px;
+}
+
+.bag{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    background-image: url(../images/815GzyF5RnL._SL1500_.jpg);
+    background-size: cover;
+}
+}
+
+.prodcont2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+.bag{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    background-image: url(../images/a6ca1509-4b98-43db-8e57-cd7a3ad3bd1c_1.6fcfbbeb7b54bf129da1f6fc7bf85c79.webp);
+    background-size: cover;
+}
+
+h1{
+    font-size: 60px;
+}
+}

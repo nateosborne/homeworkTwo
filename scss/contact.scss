@@ -1,0 +1,46 @@
+.contact{
+    h1{
+        font-size: 60px;
+    }
+
+    .contactcont{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    .contactbox{
+        height: 500px;
+        width: 400px;
+        outline: 5px solid #A81E34;
+    }
+
+    .submit{
+        height: 50px;
+        width: 100px;
+        margin-top: 30px;
+        background-color: #A81E34;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            margin-top: 15px;
+        }
+    }
+}
+
+    .map{
+        height: 500px;
+        width: 500px;
+        background-image: url(../images/Screenshot\ 2022-09-19\ 010428.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+}

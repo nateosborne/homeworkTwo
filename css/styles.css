@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#app {
+  padding: 20px;
+}
+
+nav {
+  height: 50px;
+  background-color: #A81E34;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.abouthero {
+  height: 300px;
+  width: 600px;
+  background-image: url(../images/albanese-logo-no-shadow-1250x743.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.abouttext {
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.hero {
+  height: 700px;
+  width: 100%;
+  background-image: url(../images/gummyworm.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 150px;
+  color: black;
+  outline: 5px solid white;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.prodcont {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.prodcont h1 {
+  font-size: 60px;
+}
+.prodcont .bag {
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+  background-image: url(../images/815GzyF5RnL._SL1500_.jpg);
+  background-size: cover;
+}
+
+.prodcont2 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.prodcont2 .bag {
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+  background-image: url(../images/a6ca1509-4b98-43db-8e57-cd7a3ad3bd1c_1.6fcfbbeb7b54bf129da1f6fc7bf85c79.webp);
+  background-size: cover;
+}
+.prodcont2 h1 {
+  font-size: 60px;
+}
+
+.contact h1 {
+  font-size: 60px;
+}
+.contact .contactcont {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact .contactcont .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .contactcont .box .contactbox {
+  height: 500px;
+  width: 400px;
+  outline: 5px solid #A81E34;
+}
+.contact .contactcont .box .submit {
+  height: 50px;
+  width: 100px;
+  margin-top: 30px;
+  background-color: #A81E34;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contactcont .box .submit p {
+  margin-top: 15px;
+}
+.contact .contactcont .map {
+  height: 500px;
+  width: 500px;
+  background-image: url(../images/Screenshot\ 2022-09-19\ 010428.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=styles.css.map */
